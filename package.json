@@ -1,0 +1,24 @@
+{
+  "name": "yeah-but-bttv",
+  "version": "0.0.1",
+  "description": "A simple Youtube chat mirror but with custom emotes injector",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noaione/yeah-but-bttv.git"
+  },
+  "author": "N4O",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noaione/yeah-but-bttv/issues"
+  },
+  "homepage": "https://github.com/noaione/yeah-but-bttv#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "jsdom": "^17.0.0"
+  }
+}
