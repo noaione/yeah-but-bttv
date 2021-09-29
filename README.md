@@ -1,18 +1,18 @@
 # Yeah but BTTV
 It's like a third party thing, I don't know.
 
-A web server that would allow you to show Youtube chat with custom emotes on OBS ![:)](https://static-cdn.jtvnw.net/emoticons/v2/1/static/light/1.0).<br />
-Deployed/public version: https://naotimes-og.glitch.me/yeah-but-bttv/
+A webserver for Youtube chat with custom emotes support for your OBS ![:)](https://static-cdn.jtvnw.net/emoticons/v2/1/static/light/1.0).<br />
+Deployed/public version: [https://naotimes-og.glitch.me/yeah-but-bttv/](https://naotimes-og.glitch.me/yeah-but-bttv/)
 
 You just need to append your Youtube channel ID after `/yeah-but-bttv/` so it look like this: `https://naotimes-og.glitch.me/yeah-but-bttv/UCQ61CFTVuOGqav_siaiSWhg`
 
 ## Features
 - [x] Dynamic live chat fetching (No need to manually change the Video ID anymore!)
-- [x] Add emotes from BTTV, FFZ, and 7TV.
+- [x] Emotes from BTTV, FFZ, and 7TV
 - [x] Support for channel emotes.
-- [x] Customizeable with https://chatv2.septapus.com/ (This webserver is basically Youtube chat but with emotes injection)
+- [x] Customizable with https://chatv2.septapus.com/ (This webserver is basically Youtube chat but with emotes injection)
 
-## Usage
+## Self-hosting Usage
 
 1. Download Node
 2. Clone this repository
@@ -22,7 +22,7 @@ You just need to append your Youtube channel ID after `/yeah-but-bttv/` so it lo
 It should open a localhost server at port 7776.
 After that you can just use this link: `http://localhost:7776/yeah-but-bttv/your_youtube_channel_id_here`
 
-### Adding to OBS
+## Adding to OBS
 1. Create a new Browser sources
 2. Enter the full URL with your channel ID into the URL section
 3. Customize the chat with https://chatv2.septapus.com/ (Put the CSS result in the `Custom CSS` section)
