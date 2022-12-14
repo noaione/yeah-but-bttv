@@ -18,7 +18,7 @@
   "homepage": "https://github.com/noaione/yeah-but-bttv#readme",
   "dependencies": {
     "axios": "^0.21.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsdom": "^17.0.0"
   }
 }
